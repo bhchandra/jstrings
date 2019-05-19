@@ -10,6 +10,7 @@ import static java.util.stream.Collectors.toList;
 
 @Value(staticConstructor = "of")
 public class JList implements Json {
+
     private final List<Json> elems;
 
     public static JList of(Json... jsons) {

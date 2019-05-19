@@ -10,6 +10,7 @@ import static java.util.stream.Collectors.joining;
 
 @Value(staticConstructor = "of")
 public class JObj implements Json {
+
     private final Map<String, Json> bindings;
 
     public JObj add(@NonNull String key, @NonNull String value) {

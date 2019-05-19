@@ -5,6 +5,7 @@ import lombok.Value;
 
 @Value(staticConstructor = "of")
 public class JBool implements Json {
+
     private final boolean b;
 
     @Override
